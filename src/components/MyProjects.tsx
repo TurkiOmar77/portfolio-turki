@@ -15,19 +15,21 @@ const MyProjects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="bg-white p-4 rounded-lg shadow-sm hover:shadow-lg hover:scale-105 duration-300 w-80"
+            className="bg-white pb-4 rounded-lg shadow-sm hover:shadow-lg hover:scale-105 duration-300 w-80"
           >
             <div className="relative w-full h-72">
               <Image
                 src={project.image}
                 alt={project.title}
+                width={320}
+                height={288}
                 layout="fill"
                 objectFit="cover"
                 className="rounded-md"
               />
             </div>
-            <h3 className="text-xl text-gray-600 font-semibold text-left mt-4">{project.title}</h3>
-            <p className="text-gray-400 text-left line-clamp-2 overflow-hidden">{project.description}</p>
+            <h3 className="text-xl pl-2 text-gray-600 font-semibold text-left mt-4">{project.title}</h3>
+            <p className="text-gray-400 pl-2 text-left line-clamp-2 overflow-hidden">{project.description}</p>
           </div>
         ))}
       </div>

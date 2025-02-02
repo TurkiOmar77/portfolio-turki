@@ -24,7 +24,12 @@ const SkillsSection = () => {
               <h3 className="text-2xl text-gray-400 font-semibold">{skill.name}</h3>
             </div>
             <div className="w-24 h-24">
-              <Image src={skill.imageUrl} alt={skill.name} width={96} height={96} className="object-contain" />
+              <Image
+                src={skill.imageUrl}
+                alt={skill.name} 
+                width={96}
+                height={96}
+                className="object-contain" />
             </div>
           </div>
         ))}
