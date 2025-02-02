@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link href="#skills" className="hover:text-gray-400 duration-300">Skills</Link>
           </li>
           <li className="py-2 md:py-0 text-center">
-            <Link href="#myprject" className="hover:text-gray-400 duration-300">My project</Link>
+            <Link href="#myproject" className="hover:text-gray-400 duration-300">My project</Link>
           </li>
           
         </ul>
