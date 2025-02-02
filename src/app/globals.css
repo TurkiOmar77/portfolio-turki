@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Varela+Round&display=swap');@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply font-body
+}
+html{
+    scroll-behavior: smooth ;
+}
+
+.my-icons{
+    @apply text-2xl cursor-pointer opacity-65 hover:opacity-100 duration-300;
+}
