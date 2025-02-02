@@ -9,7 +9,7 @@ const MyProjects = () => {
   ];
 
   return (
-    <section id="myprject" className="p-8 text-center pt-20 pb-32">
+    <section id="myproject" className="p-8 text-center pt-20 pb-32">
       <h2 className="text-3xl text-gray-600 font-bold mb-20">My Projects</h2>
       <div className="flex flex-wrap justify-center gap-6">
         {projects.map((project) => (
@@ -21,8 +21,6 @@ const MyProjects = () => {
               <Image
                 src={project.image}
                 alt={project.title}
-                width={320}
-                height={288}
                 layout="fill"
                 objectFit="cover"
                 className="rounded-md"
