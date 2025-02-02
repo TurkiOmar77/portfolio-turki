@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const MyProjects = () => {
   const projects = [
-    { id: 1, title: "Training React", description: "Description of the first project.", image: "/myproj/proj1.png" },
-    { id: 2, title: "Training MERN Stack", description: "Description of the second project.", image: "/myproj/proj2.jpg" },
-    { id: 3, title: "Training Tailwind CSS", description: "Description of the third project.", image: "/myproj/proj3.jpg" },
-    { id: 4, title: "Training Next.js", description: "Description of the fourth project.", image: "/myproj/proj4.jpg" },
+    { id: 1, title: "Training React", description: "Description of the first project.", image: "/proj1.png" },
+    { id: 2, title: "Training MERN Stack", description: "Description of the second project.", image: "/proj2.jpg" },
+    { id: 3, title: "Training Tailwind CSS", description: "Description of the third project.", image: "/proj3.jpg" },
+    { id: 4, title: "Training Next.js", description: "Description of the fourth project.", image: "/proj4.jpg" },
   ];
 
   return (
